@@ -1,3 +1,4 @@
+# use square brackets to merge onto one line
 /^\[$/,/^\]$/{
 :a
     N
@@ -5,4 +6,5 @@
     /^\[.*\]$/!ta
 }
 
+# remove the square brackets
 s/^\[, \(.*\), \]/\1/
