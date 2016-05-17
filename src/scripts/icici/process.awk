@@ -16,8 +16,9 @@ BEGIN {
         descOut = descOut " " $7
     }
     if($3 == "SWIFT/CHAPS") {
-        refOut=$6
-        descOut=$7
+        split($6,a," ")
+        refOut=a[1]
+        descOut=a[2]
     }
 
     amount = $4

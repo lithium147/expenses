@@ -1,10 +1,3 @@
-# use square brackets to merge onto one line
-/^\[$/,/^\]$/{
-:a
-    N
-    s/\n/, /g
-    /^\[.*\]$/!ta
-}
-
-# remove the square brackets
-s/^\[, \(.*\), \]/\1/
+# join every second line
+# insert a comma+space between each join
+N;s/\n/, /

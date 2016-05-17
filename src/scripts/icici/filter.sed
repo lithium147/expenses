@@ -12,8 +12,11 @@
 /DIRECT DEBIT/s/$/, debit/
 /SWIFT\/CHAPS/s/$/, debit/
 /DD REJ/s/$/, debit/
+/TIM WALTERS SOLUBRIS ICICI/s/$/, debit/
+/BACS CHEQUE/s/$/, debit/
 
 #credits:
+/CHQ DEPOSIT/s/$/, credit/
 /INT.PD/s/$/, credit/
 /DIRECT CREDIT/s/$/, credit/
 /HYPHEN.COM LTD/{
@@ -23,6 +26,7 @@
 /CLIENTS ACCOUNT REBUILDINGS/s/$/, credit/
 # rebuilding society
 /CLIENTS ACCOUNT 12546/s/$/, credit/
+/FCL CLIENT ACC FCT[0-9]/s/$/, credit/
 
 # STANDING ORDER/DIRECT CREDIT -> DIRECT CREDIT
 s/STANDING ORDER\///
