@@ -7,19 +7,39 @@ s/$/ 11/
 /OYSTER BUS/s/ 11$/ 9/
 /OYSTER RENEW WEB/s/ 11$/ 9/
 /WESTFIELD SHOPPING/s/ 11$/ 9/
+/WESTMINSTER PARKING/s/ 11$/ 9/
 /KINGS MALL CAR PARK/s/ 11$/ 9/
 /APCOA-HAL-SS/s/ 11$/ 9/
+/Uber/s/ 11$/ 9/
+/MARYLEBONE STATION/s/ 11$/ 9/
+/TAXI FARE BY VERIFONE/s/ 11$/ 9/
+
 # internet services
 /APPLE ITUNES/s/ 11$/ 8/
 /FASTHOSTS INTERNET/s/ 11$/ 8/
+/PLUSNET/s/ 11$/ 8/
+
 # capital items
 /Amazon *Mktplce/s/ 11$/ 22/
 /Amazon EU/s/ 11$/ 22/
 /JOURNOVA.COM/s/ 11$/ 22/
 /APPLE ONLINE STORE/s/ 11$/ 22/
+/PC WORLD/s/ 11$/ 22/
+/OTHER WORLD COMPUTING/s/ 11$/ 22/
+
 #company admin
 /COMPANIES HOUSE/s/ 11$/ 14/
 
+#insurance
+/QDOSCONSULTING/s/ 11$/ 13/
+
+#postage
+/ROYALMAIL/s/ 11$/ 19/
+/INTERPARCEL/s/ 11$/ 19/
+/POST OFFICE COUNTER/s/ 11$/ 19/
+
+###############
+# BACKGROUND BARS -> entertaining?
 
 
 # whats this:

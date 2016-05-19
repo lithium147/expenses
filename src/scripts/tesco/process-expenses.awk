@@ -1,5 +1,5 @@
 BEGIN {
-    rolloverDate = mktime("2013 08 31 00 00 00")
+    rolloverDate = mktime("2014 08 31 00 00 00")
 }
 {
     if(NF == 1 ) {
