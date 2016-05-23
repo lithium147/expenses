@@ -2,7 +2,20 @@
 s/\([0-9]\),\([0-9]\)/\1\2/
 # remove remaining commas
 s/,/ /
+# remove negative transactions
+/-£[0-9.]*$/d
 
+# parking permit
+/WWW.LBHF.GOV.UK/d
+
+# dentist
+/LISTER HOUSE/d
+
+#petrol
+/CRYSTAL PALACE 96/d
+
+/BACKGROUND BARS/d
+/NOCHEX/d
 /PAYPAL/d
 /32 RED/d
 /EQUIFAX/d
@@ -26,7 +39,6 @@ s/,/ /
 /AGL*Women Can’t Serve/d
 /LADBROKES/d
 /sportingbet/d
-#/LBHF CAR
 /NEXT LONDON WESTFIELD/d
 /HSS HIRE/d
 /TESCO.*KENSINGTON/d
@@ -255,7 +267,11 @@ s/,/ /
 /CRESTOAKS LTD/d
 /Rapidlane/d
 /THE RIVERFRONT/d
-
+/TFL.*PENALTY/d
+/THCL LONDON/d
+/ECCO SHOP/d
+/GATHER AND GATHER/d
+/BOOTS/d
 
 # hair
 /SOTIRA GEORGIO/d

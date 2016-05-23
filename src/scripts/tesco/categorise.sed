@@ -13,15 +13,15 @@ s/$/ 11/
 /Uber/s/ 11$/ 9/
 /MARYLEBONE STATION/s/ 11$/ 9/
 /TAXI FARE BY VERIFONE/s/ 11$/ 9/
+/TFL CYCLE HIRE/s/ 11$/ 9/
 
 # internet services
-/APPLE ITUNES/s/ 11$/ 8/
+/ITUNES/s/ 11$/ 8/
 /FASTHOSTS INTERNET/s/ 11$/ 8/
 /PLUSNET/s/ 11$/ 8/
 
 # capital items
-/Amazon *Mktplce/s/ 11$/ 22/
-/Amazon EU/s/ 11$/ 22/
+/Amazon/s/ 11$/ 22/
 /JOURNOVA.COM/s/ 11$/ 22/
 /APPLE ONLINE STORE/s/ 11$/ 22/
 /PC WORLD/s/ 11$/ 22/
@@ -37,6 +37,11 @@ s/$/ 11/
 /ROYALMAIL/s/ 11$/ 19/
 /INTERPARCEL/s/ 11$/ 19/
 /POST OFFICE COUNTER/s/ 11$/ 19/
+/DHL/s/ 11$/ 19/
+
+#stationary
+/ANYLAMPUK/s/ 11$/ 20/
+
 
 ###############
 # BACKGROUND BARS -> entertaining?
