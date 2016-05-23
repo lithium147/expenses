@@ -5,6 +5,9 @@ copy from pdf and paste into text file
 merge lines so 3 line records become 2
 split single line records to be 2 lines
 
+tesco
+copy from pdf and paste into text file
+
 
 
 TODO
